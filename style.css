@@ -72,3 +72,45 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+  background-color: #9fd3c7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 25rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-image: url(image/map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e7eaf6;  
+}
+
+.card img {
+  width: 3rem;
+}
+.card .title {
+  color: #233142;
+}
+.card .code {
+  color: #455d7a;
+}
+.card .valid {
+  color: #385170;
+}
+.card .date, .card .id {
+  color: #113f67;
+}
