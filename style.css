@@ -114,3 +114,21 @@ body {
 .card .date, .card .id {
   color: #113f67;
 }
+
+.toggle {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  top: 4rem; right: 4rem;
+  font-size: 3rem;
+  cursor: pointer;
+  background-color: #857cec81;
+  border-radius: 1000vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none !important;
+}
