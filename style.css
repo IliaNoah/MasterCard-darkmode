@@ -97,7 +97,8 @@ body {
   background-image: url(image/map.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #e7eaf6;  
+  background-color: #e7eaf6;
+  position: relative;
 }
 
 .card img {
@@ -134,6 +135,20 @@ body {
   display: none !important;
 }
 
-.light {
-  color: #ccc;
+.circle {
+  border-radius: 100vmax;
+  padding: 2rem;
+}
+
+.circle.red {
+  position: absolute;
+  right: 1rem; bottom: .5rem;
+  background-color: #eb001b;
+  opacity: .9;
+}
+.circle.orange {
+  position: absolute;
+  right: 3.5rem; bottom: .5rem;
+  background-color: #ff5f00;
+  opacity: .9;
 }
