@@ -75,6 +75,7 @@ select {
 
 * {
   font-family: 'Kanit', sans-serif;
+  transition: all .4s;
 }
 
 body {
@@ -131,4 +132,8 @@ body {
 
 .hidden {
   display: none !important;
+}
+
+.light {
+  color: #ccc;
 }
