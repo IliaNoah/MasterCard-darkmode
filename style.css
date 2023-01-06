@@ -79,7 +79,7 @@ select {
 }
 
 body {
-  background-color: #9fd3c7;
+  background-color: #EAD2AC;
 }
 
 .container {
@@ -105,16 +105,19 @@ body {
   width: 3rem;
 }
 .card .title {
-  color: #233142;
+  color: #000000;
 }
 .card .code {
-  color: #455d7a;
+  color: #282A3A;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: .4rem;
 }
 .card .valid {
-  color: #385170;
+  color: #735F32;
 }
 .card .date, .card .id {
-  color: #113f67;
+  color: #C69749;
 }
 
 .toggle {
